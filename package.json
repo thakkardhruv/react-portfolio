@@ -1,7 +1,6 @@
 {
-  "name": "personal-portfolio",
-  "homepage": "https://dhruvthakkar.herokuapp.com",
-  "version": "1.0.0",
+  "name": "portfolio",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "clone": "2.1.1",
@@ -14,15 +13,14 @@
     "react-tap-event-plugin": "2.0.1",
     "roboto-npm-webfont": "0.0.2",
     "scroll-to": "0.0.2",
-    "validator": "7.0.0"
-  },
-  "devDependencies": {
+    "validator": "7.0.0",
     "gh-pages": "0.12.0",
     "react-scripts": "0.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "npm run build && gh-pages -d build"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   }
 }
